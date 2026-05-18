@@ -45,3 +45,27 @@ const myFunction = function(){
        Function  =>  function
        Object  =>  object
 */
+
+//**************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "luckyvashishtha"
+
+let anothername = myYoutubename;
+anothername = "chaiaurcode"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne ={
+    email : "user@google.com",
+    upi : "user@ybi"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "luckyBoi"
+
+console.log(userOne.email);
+console.log(userTwo.email);
